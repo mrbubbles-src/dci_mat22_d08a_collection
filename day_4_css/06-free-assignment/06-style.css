@@ -1,0 +1,50 @@
+/* font-family: 'Cormorant SC', serif; */
+/* font-family: 'Square Peg', cursive; */
+
+/* body {
+  background-color: grey;
+} */
+
+h1 {
+  font-family: "Cormorant SC", serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-decoration: underline;
+}
+
+#prenote {
+  font-family: "Cormorant SC", serif;
+  max-width: 500px;
+  margin: 50px auto;
+  border: 1px solid black;
+}
+
+#note {
+  font-family: "Square Peg", cursive;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: whitesmoke;
+  box-shadow: 2px 2px 15px;
+  /* border: 1px solid black; */
+}
+
+#lobsterdog {
+  max-width: 500px;
+  display: block;
+  margin: 15px auto;
+}
+
+#img-description {
+  font-weight: bold;
+  font-size: small;
+  text-align: center;
+  /* background-color: whitesmoke; */
+  border-bottom: 1px solid grey;
+  margin: -13px auto;
+  width: fit-content;
+  border: 1px solid black;
+}

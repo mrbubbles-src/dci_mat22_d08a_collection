@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+}
+
+div {
+  border: 1px solid grey;
+  margin: 10px;
+  padding: 10px;
+
+  /* TEXT PLATZIEREN: */
+
+  text-align: center;
+  /* text-align: left; */
+  /* text-align: right; */
+  /* text-align: justify; */
+
+  /* TEXT DECORATION: */
+
+  /* text-decoration: underline; */
+  /* text-decoration: line-through; */
+
+  /* TEXT TRANSFORM: */
+
+  /* text-transform: capitalize; (erster buchstabe jedes wortes groß) */
+  /* text-transform: uppercase; (alles groß) */
+
+  /* TEXT SHADOW: */
+  /* horizontal, vertikal, schärfe */
+  /* text-shadow: 1px 1px 3px black; */
+
+  /* BOX SHADOW: */
+  /* horizontal, vertikal, schärfe */
+  /* box-shadow: 10px 10px 15px black; */
+
+  /* TEXT SPACING: */
+  letter-spacing: 3px;
+  word-spacing: 5px;
+}

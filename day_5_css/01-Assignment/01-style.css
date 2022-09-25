@@ -1,0 +1,90 @@
+/* 
+font-family: 'Kaisei Opti', serif;
+font-family: 'Merriweather', serif; 
+*/
+
+body {
+  margin: 0 50px 0 50px;
+  /* border: 2px solid red; */
+}
+#erste-div {
+  font-family: "Kaisei Opti", serif;
+  font-size: 15px;
+  font-style: italic;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 40px 0 30px 0;
+}
+
+.erstes-p {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  text-decoration: underline;
+  letter-spacing: 8px;
+  margin-bottom: 50px;
+}
+
+#button {
+  font-family: "Kaisei Opti", serif;
+  font-weight: bold;
+  border: 3px solid black;
+  border-radius: 12px;
+  background-color: lightgray;
+  padding: 10px 30px;
+}
+
+#button:hover {
+  background-color: bisque;
+  border: 3px solid maroon;
+  color: maroon;
+  transform: scale(1.2);
+}
+
+.nav-1 {
+  /* border: 2px solid red; */
+  list-style-type: none;
+  width: fit-content;
+  margin: 40px auto 80px;
+  padding: 0;
+}
+
+.nav-1 li {
+  display: inline-block;
+}
+
+.nav-1 li a {
+  background-color: gray;
+  border: 3px solid gray;
+  font-family: "Kaisei Opti", serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-1 li a:hover {
+  border: 3px solid maroon;
+  color: maroon;
+  background-color: bisque;
+}
+
+#table,
+th,
+td {
+  font-family: "Kaisei Opti", serif;
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+#table th,
+td {
+  text-align: center;
+  padding: 0 45px;
+}
+
+#table th {
+  font-weight: bold;
+  background-color: greenyellow;
+}

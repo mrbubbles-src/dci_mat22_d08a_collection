@@ -1,0 +1,36 @@
+/* Tag Selektor */
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: purple;
+}
+
+/* ID Sekektor */
+/* Eine ID wird immer mit einem # angesprochen */
+/* Jedes element kann nur eine ID haben und jede ID kann nur einmal angesprochen werden */
+#orange-heading {
+  color: orange;
+}
+
+#orange-text {
+  color: orange;
+}
+
+/* Class Selektor */
+/* Eine klasse wird immer mit . angesprochen */
+/* Klassen können mehrfach benutzt werden und mehrere elemente gleichzeitig ansprechen */
+/* Mehrere Klassen können in einem Element benutzt werden */
+.blue-text {
+  color: blue;
+}
+.bold-text {
+  font-weight: bold;
+}
+
+.highlight-text {
+  color: brown;
+}
+
+/* Immer klassen nutzen außer es wird explizit eine ID gebraucht! */

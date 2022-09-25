@@ -1,0 +1,25 @@
+div {
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 10px;
+}
+
+  /*
+mehrere stehen als fallback fonts
+wenn font name aus 2 oder mehr wörtern besteht mit " " schreiben.
+direkte font namen werden groß geschrieben
+in diesem fall monospace ist eine font-familie und es wird dort der erste font aus dieser familie 
+*/
+
+
+#id-1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#id-2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#id-3 {
+  font-family: "Times New Roman", Times, serif;
+}

@@ -1,0 +1,8 @@
+HTML Aufgabe 1:
+
+Schreiben einer HTML validen Datei die an dem vorgegebenen Bild angepasst ist!
+Achte auf die richtigen HTML Tag Elemente und deren Attribute!
+Achte auf den HTML Grundaufbau!
+Achte auf die richtige Reihenfolge der HTML Tag Elemente!
+Validiere deine Datei auf Meldungen und Fehler!
+Die Bilder können selbständig gewählt werden.

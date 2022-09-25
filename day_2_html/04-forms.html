@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <!-- Extra Content. Wird im Orientierungskurs nicht behandelt -->
+    <!-- https://www.w3schools.com/html/html_forms.asp -->
+
+    <h1>Forms</h1>
+
+    <!-- 
+        FORMS 
+            Formulare(forms) werden mit diesen elemente gebaut:
+                "form" = Um denn formular zu deklarieren
+                "label" = Als beschreibung von inputs
+                "input" = Es gibt verschiedene inputs, die mit denn type attribut bestimmt werden können
+                "textarea" = Für Nachricht oder längere texte
+                "button" = mit type submit oder input mit type button um dir form zu versenden
+
+            ATTRIBUTTE:
+             - required = Muss ausgefühlt sein um die form zu senden
+             - for, name, id = zu identiefiezierung
+             - value = Um text in die inputs oder elemente vorzugeben
+             - placeholder = Text als information, nur zu sehen
+             - minlength, maxlength = Um die länge von einem text zu bestimmen
+             - min, max = Um inputs mit type number zu begrenzen
+    -->
+
+    <!-- wird heutzutage in dieser art normal nicht mehr gemacht -->
+    <form action="#" method="post">
+      <label for="username">Name:</label>
+      <input type="text" name="username" id="username" />
+
+      <br />
+      <br />
+
+      <label for="useremail">Email:</label>
+      <input type="email" name="useremail" id="useremail" />
+
+      <br />
+      <br />
+
+      <label for="bookselect">Choose your book:</label>
+      <select name="bookselect" id="bookselect">
+        <option value="book-1">Book 1</option>
+        <option value="book-2">Book 2</option>
+        <option value="book-3">Book 3</option>
+        <option value="book-4">Book 4</option>
+        <option value="book-5">Book 5</option>
+      </select>
+
+      <br />
+      <br />
+
+      <label for="usermessage">Message:</label>
+      <textarea
+        name="usermessage"
+        id="usermessage"
+        cols="30"
+        rows="10"
+      ></textarea>
+
+      <br />
+      <br />
+
+      <button type="submit">Submit</button>
+      <!-- <input type="button" value="Click me"> -->
+    </form>
+  </body>
+</html>

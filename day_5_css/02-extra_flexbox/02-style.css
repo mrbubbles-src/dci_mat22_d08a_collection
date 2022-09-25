@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+}
+
+.flex-parent {
+  border: 3px solid red;
+  height: 300px;
+
+  /* passt sich an platz an */
+  display: flex;
+
+  /* entscheidet ob es nebeneinander order untereinander ist
+  oder umgekehrt */
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+
+  /* horizentale anpassung */
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+
+  /* verteilt den content über die fläche
+  mit abstand vorne und hinten und doppelten abstand 
+  von vorne und hinten daziwschen */
+  /* justify-content: space-around; */
+
+  /* verteilt den content über die fläche
+  ohne abstand vorne und hinten aber zwischen elementen*/
+  /* justify-content: space-between; */
+
+  /* verteilt den content über die fläche
+  mit gleichem abstand */
+  /* justify-content: space-evenly; */
+
+  /* vertikale anpassung */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  align-items: center;
+
+  /* 
+  wenn flex-direction: in verbindung mit justify-content 
+  und align-content gesetzt wird, ändert sich 
+  align-items: auf horizontal und 
+  justify-content: auf vertikal 
+  */
+
+  /* lässt element position and seiten größe anpassen */
+  flex-wrap: wrap;
+}
+
+.flex-parent .item {
+  border: 3px solid green;
+
+  margin: 10px;
+}

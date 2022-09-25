@@ -1,0 +1,7 @@
+HTML Aufgabe 2:
+
+Schreiben einer HTML validen Datei die an dem vorgegebenen Bild angepasst ist!
+Achte auf die richtige HTML Struktur!
+Achte auf die richtigen HTML Attribute!
+Das IFRAME kann selbständig gewählt werden, z.B. Youtube, Spotify, Wetter, Maps!
+Validiert eure HTML Datei am Ende, achtet auf die Fehler bei den Iframes!

@@ -1,0 +1,103 @@
+<!-- Mit ! + enter kann man schnell den basic code einfügen  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elemente</title>
+  </head>
+  <body>
+    <!-- h steht für Heading (Überschrift) -->
+    <!-- STRG+k > STRG+c macht einen kommentar -->
+    <!-- Es gibt 6 Überschriften, h1 bis h6 -->
+    <!-- Überschriften (Header) werden von h1 bis h6 immer kleiner -->
+    <!-- wenn man zb h7 nimmt wird es text -->
+    <!-- H1 wird in der Regel nur einmal pro website benutzt, H2 bis H6 kann so oft genutzt werden wie gebraucht. -->
+    <h1>Ich bin ein h1</h1>
+    <h2>Ich bin ein h2</h2>
+    <h3>Ich bin ein h3</h3>
+    <h4>Ich bin ein h4</h4>
+    <h5>Ich bin ein h5</h5>
+    <h6>Ich bin ein h6</h6>
+    <!-- <h7>Ich bin ein h7, ich existiere aber nicht</h7> -->
+
+    <!-- Paragraph/Text: -->
+    <!-- standard größe für paragraphen 16 pixel-->
+    <p>Ich bin ein paragraph</p>
+    <p>Ich bin noch ein paragraph</p>
+    <p title="Ich bin ein Titel attribut">Ich bin ein Paragraph</p>
+
+    <!-- Links: -->
+    <!-- a = anchor tag element. anchor tags sind im prinzip URLs-->
+    <!-- attribute (zb href) sind immer im öffnungstag -->
+    <!-- <a href="URL" title="WIRD ANGEZEIGT BEIM HOVERN ÜBBER DEM LINK">NAME DES LINKS</a> -->
+    <a
+      href="https://de.wikipedia.org/wiki/Hypertext_Markup_Language"
+      title="Ich bin eine beschreibung"
+      >Click me, I'm a link</a
+    >
+    <!-- <br> ist um neue zeilen einzufügen. jedes <br> stellt eine zeile dar -->
+    <br />
+    <br />
+    <!-- target blank ist dafür da um einen link im neuen Tab zu öffnen -->
+    <!-- rel="noopener noreferrer" ist zur sicherheit da  -->
+    <a
+      href="https://de.wikipedia.org/wiki/Hypertext_Markup_Language"
+      title="In neuem Tab öffnen"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Ich bin ein blank link, ich öffne mich in einem neuen tab</a
+    >
+    <br />
+    <!-- Bilder: -->
+    <!-- src= platz für bildspeicherort -->
+    <!-- müssen immer eine dateiendung haben (zb .jpg) -->
+    <!-- alt= alternative beschreibung zb falls bild nicht geladen wird oder für menschen mit behinderungen die screenreader nutzen -->
+    <!-- width="" oder height="" um bilder zu skalieren. am besten nur eins von beiden nutzen  -->
+    <img
+      src="https://i.natgeofe.com/n/1fcbc190-9968-4466-93b4-f32241c835e3/mount-fuji-clouds-weather-japan_16x9.jpg"
+      alt="Mountain Background"
+      width="300"
+    />
+    <br />
+    <!-- ./ nutzen um relativen pfad für elementen nutzen (in dem fall ein bild) -->
+    <img
+      src="./images/Mountainview1.jpg"
+      alt="Mountain Background"
+      width="300"
+    />
+
+    <!-- Listen: -->
+    <!-- es gibt Ordered (geordnete(OL)) und Unordered (ungeordnete listen(UL)) -->
+    <!-- <li></li> muss das kind der <ul></ul> und <ol></ol> sein. innerhalb der <li></li> kann man aber weitere elemente einfügen -->
+    <!-- Ordered (Geordnete liste): -->
+    <ol>
+      <li>Ich bin das erste listen element</li>
+      <li>Ich noch ein listen element</li>
+      <li>listen element 3</li>
+      <li>listen element 4</li>
+    </ol>
+    <br />
+
+    <!-- Unordered List (ungeordnete liste) -->
+    <ul>
+      <li>Element 1</li>
+      <li>Element 2</li>
+      <li>Element 3</li>
+      <li>Element 4</li>
+    </ul>
+    <br />
+    <br />
+    <!-- Bild als link: -->
+    <a
+      href="https://de.wikipedia.org/wiki/Hypertext_Markup_Language"
+      target="_blank"
+      rel="noopener noreferrer"
+      ><img
+        src="https://i.natgeofe.com/n/1fcbc190-9968-4466-93b4-f32241c835e3/mount-fuji-clouds-weather-japan_16x9.jpg"
+        alt="Mountain Background"
+        width="300"
+    /></a>
+  </body>
+</html>

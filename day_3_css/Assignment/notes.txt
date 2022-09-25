@@ -1,0 +1,6 @@
+Erstellt eine kleine webseite mit eine html datei uns eine css datei.
+Erstellt eure html grundstruktur und verbindet euere css.
+
+Im html bitte mindestens eine liste, 2 paragraph und ein bild erstellen.
+
+Style im css alle html elemente, benutze mindestens einmal: ein tag selektor, eine eine ID und eine classe.

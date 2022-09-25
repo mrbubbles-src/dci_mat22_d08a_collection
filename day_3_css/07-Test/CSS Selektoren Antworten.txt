@@ -1,0 +1,70 @@
+1 a (korrekt)
+bsp
+p{
+    color: orange;
+}
+
+----
+
+2 b (korrekt)
+bsp
+#mainpic{
+    color: orange;
+}
+
+----
+
+3 c (korrekt)
+bsp
+.warning{
+    color: red;
+}
+
+----
+
+4 d (korrekt)
+bsp
+h2{
+    color: orange;
+}
+
+----
+
+5 c (falsch, fangfrage; alles antwortmöglichkeiten falsch)
+
+----
+
+6 c (korrekt) 
+bsp
+p,
+div{
+    color: blue;
+}
+
+----
+
+7 b (korrekt) 
+bsp
+div p{
+    color: blue;
+}
+
+----
+
+8 c (korrekt) 
+bsp
+img{
+    border: 3px solid blue;
+}
+
+----
+
+9 c (korrekt) 
+bsp
+#eineID{
+    color: purple;
+}
+----
+
+10 c (korrekt)
+Cascading Style Sheets

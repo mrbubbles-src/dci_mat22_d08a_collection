@@ -1,0 +1,64 @@
+/* Grouping Selektor: */
+h2,
+h3 {
+  color: blue;
+}
+
+/* Combinator: */
+/* spricht alles an was in dem element ist */
+div p {
+  color: orange;
+}
+
+/* Child Combinator: */
+/* spricht nur elemente die ein direktes kind des angesprochenene elemts  */
+main > p {
+  color: darkorange;
+}
+
+/* Adacent Sibling Combinator: */
+/* sucht sich immer das letzte was steht aus und nutzt die angegebene aktion. wenn zb h4 + p + p steht, wird das letzte p eingefärbt */
+h4 + p {
+  color: red;
+}
+
+/* --------------------------- */
+
+/* Inheritance: */
+/* alle kinder werden mit der gleichen aktion vom angegebenen parent angesprochen */
+/* klassen können auch angesprochen werden */
+body {
+  font-family: sans-serif;
+}
+
+/* Specificity: */
+/* eine ID hat die höchste priorität
+eine Klasse hat die zweit höchste
+direktes ansprechen eines elemts die niedrigste */
+
+#blue-heading {
+  color: blue;
+}
+.green-heading {
+  color: orange;
+}
+h5 {
+  color: red;
+}
+
+/* DRY Principles (don't repeat yourself): */
+/* Nach möglichkeit nicht wiederholen. manchmal ist es nicht möglich eine wiederholung zu vermeiden. */
+
+/* Bad example: */
+h2 {
+  color: red;
+}
+h3 {
+  color: red;
+}
+
+/* Good example: */
+h2,
+h3 {
+  color: red;
+}

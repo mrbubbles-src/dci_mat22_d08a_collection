@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(39, 39, 39);
+  font-family: sans-serif;
+}
+
+ul,
+a, 
+h1,
+h3 {
+  color: rgb(166, 166, 167);
+}
+
+img {
+  width: 100%;
+  border: 2px solid lightgray;
+}
+
+#imgsource {
+  color: lightslategray;
+  border-bottom: 1px solid lightgray;
+  font-size: 12px;
+}
+
+.duckfacts {
+  color: rgb(166, 166, 167);
+  font-size: 16px;
+}

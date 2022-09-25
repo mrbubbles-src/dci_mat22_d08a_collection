@@ -1,0 +1,31 @@
+/* 
+- wenn es 0 pixel sind nur 0 und NICHT 0px
+- der auto wert funktioniert nur für links und rechts werte*/
+
+body {
+  background-color: lightgray;
+}
+
+h1 {
+  background-color: blue;
+  width: 50%;
+  padding: 10px 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+p {
+  color: red;
+}
+
+#id-1 {
+  color: green;
+  padding: 0 0 0 50px;
+}
+
+.class-1 {
+  color: blue;
+  border: dotted;
+  padding: 0 0 100px 0;
+  height: 50%;
+}

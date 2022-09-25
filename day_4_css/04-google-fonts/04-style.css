@@ -1,0 +1,19 @@
+div {
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 10px;
+}
+
+#id-1 {
+  font-family: "Roboto", sans-serif;
+}
+
+#id-2 {
+  font-family: "Montserrat", sans-serif;
+
+  /* das sind die verschiedenen arten des schrifttyps die wir hier verlinkt haben. */
+  font-weight: 100;
+  font-weight: 100;
+  font-weight: 700;
+  font-weight: bold;
+}
