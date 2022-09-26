@@ -9,7 +9,8 @@ This is a collection of files created during the WebDev **"DCI MAT22 D08 A" Orie
 
 This is used as a reference collection for mermbers of the year-long WebDev course **"DCI FBW-WD-22-D07"**
 ---
-### Click on these links to directly go to the respective day (alternatively select it directly above in the directory)
+### Click on these links to directly go to the respective day: 
+##### (alternatively select it directly above in the directory)
 ---
 * [Day 1 - HTML](./day_1_html/)
 * [Day 2 - HTML](./day_2_html/)
